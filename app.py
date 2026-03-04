@@ -1,3 +1,4 @@
+import sys
 from datetime import date
 
 from fastapi import FastAPI
@@ -8,6 +9,12 @@ from fake_data_app import create_app
 store_dict = create_app()
 app = FastAPI()
 
+@app.get("/health", tags=["Monitoring"])
+def health():
+    return {
+        "status": "ok",
+        "python_version": sys.version
+    }
 
 @app.get("/")
 def visit(
