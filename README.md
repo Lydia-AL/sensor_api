@@ -86,7 +86,7 @@ curl -G https://sensor-api-1-upv8.onrender.com \
      -d "month=9" \
      -d "day=15"
 
-## Healthcheck
+## Healthcheck : https://sensor-api-1-upv8.onrender.com/health
 
 Permet de vérifier que l’API fonctionne correctement
 
