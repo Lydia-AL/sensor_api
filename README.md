@@ -27,7 +27,7 @@ Validation des entrées (date, année, capteur)
 Endpoint de healthcheck pour vérifier si l’API fonctionne correctement
 
 ## Structure du projet
-
+```
 sensor_api/
 │
 ├─ .github/workflows/ci.yaml       # Configuration CI GitHub Actions
@@ -40,6 +40,7 @@ sensor_api/
 └─ tests/
     ├─ test_visit_sensor.py        # Tests unitaires pour VisitSensor
     └─ test_store_methods.py       # Tests unitaires pour StoreSensor
+```
 
 ## Installation
 
@@ -60,9 +61,11 @@ pip install -r requirements.txt
 Lancer l’API
 uvicorn app:app --reload
 
-### L’API sera accessible à l’adresse : http://127.0.0.1:8000
+### L’API sera accessible à l’adresse : 
+http://127.0.0.1:8000
 
-La documentation interactive Swagger : http://127.0.0.1:8000/docs
+La documentation interactive Swagger : 
+http://127.0.0.1:8000/docs
 
 ## Endpoints
 
@@ -86,7 +89,8 @@ curl -G https://sensor-api-1-upv8.onrender.com \
      -d "month=9" \
      -d "day=15"
 
-## Healthcheck : https://sensor-api-1-upv8.onrender.com/health
+## Healthcheck : 
+https://sensor-api-1-upv8.onrender.com/health
 
 Permet de vérifier que l’API fonctionne correctement
 
