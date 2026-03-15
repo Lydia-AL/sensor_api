@@ -2,7 +2,8 @@
 
 ## Description
 
-Sensor API est une API REST développée avec FastAPI qui simule le trafic de clients dans différents magasins. Chaque magasin possède plusieurs capteurs à l’entrée qui permettent de générer le nombre de visiteurs pour une date donnée. L’API prend en compte :
+Sensor API est une API REST développée avec FastAPI qui simule le trafic de clients dans différents magasins. Chaque magasin possède plusieurs capteurs à l’entrée qui permettent de générer le nombre de visiteurs pour une date donnée. Ce projet permet de simuler la fréquentation des magasins et de tester la fiabilité de l’API pour prendre des décisions sur la gestion des flux clients.
+L’API prend en compte :
 
 La variabilité normale du trafic par capteur
 
